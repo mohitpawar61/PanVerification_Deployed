@@ -20,7 +20,8 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",   // Vite dev server
                                 "http://localhost:3000",
-                                "https://pan-verification-portal-frontend.vercel.app"// fallback
+                                "https://pan-verification-portal-frontend.vercel.app",
+                                "https://pan-verification-portal-frontend-qhjti194n.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
