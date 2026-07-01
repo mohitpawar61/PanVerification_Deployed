@@ -19,7 +19,8 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",   // Vite dev server
-                                "http://localhost:3000"    // fallback
+                                "http://localhost:3000",
+                                "https://pan-verification-portal-frontend.vercel.app"// fallback
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
